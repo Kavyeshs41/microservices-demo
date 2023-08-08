@@ -24,6 +24,7 @@ jobs:
       with:
         context: ${{ matrix.repo }}
         push: false
+        load: true
         tags: ${{ env.GROUP }}/${{ matrix.repo }}:${{ github.sha }}
 
     - name: Scan image
