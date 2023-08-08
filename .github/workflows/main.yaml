@@ -3,7 +3,7 @@ name: Scan Container
 on:
   push:
     branches:
-    - "master"  # run for branches
+    - "master"  # run for master branch
 
 jobs:
   build-test-images:
